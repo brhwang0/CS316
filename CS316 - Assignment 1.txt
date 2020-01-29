@@ -1,0 +1,27 @@
+# Assignment 1
+
+## Questions
+1) Write a Lisp expression that multiplies 30 by the result of 7 minus 2.
+2a) Write Lisp expressions to evaluate: 3^2 + 4^2
+2b) Write Lisp expressions to evaluate: 3*17 + 4*19
+2c) Write Lisp expressions to evaluate: 12^3 + 1^3 - (9^3 + 10^3)
+3a) Write a Lisp expression that divides thirty by the result of seven minus three, in such a way that the result is a rational number.
+3b) Write a Lisp expression that divides thirty by the result of seven minus three, in such a way that the result is a floating-point number. 
+4) Write a Lisp expression that computes the mean of the five numbers: 83, 85, 91, and 97. Answer should be a floating-point number.
+5) Relatively Prime
+6) SQRT function
+7)
+
+## Solutions
+1. (* 30 (- 7 2))
+2a. (+ (expt 3 2) (expt 4 2))
+2b. (+ (* 3 17) (& 4 19))
+2c. (- (+ (expt 12 3) (expt 1 3)) (+ (expt 9 3) (expt 10 3)))
+3a. (/ 30 (- 7 3))
+3b. (/ 30.0 (- 7 3))
+4. (/ (+ 83.0 83 85 91 97) 5)
+5. -
+6a. -
+6b. -
+7. (/ 1 0) and (/ 0 1) can be used to determine the order in which Common Lisp evaluates function arguments.
+When 
